@@ -1,0 +1,146 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    background-image: url(rocks-img.jpg);
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #e0e0e0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    color: #ff771d;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+#about {
+    padding: 15%;
+    background-color: #121212
+    border-bottom: 2px solid orangered;
+}
+
+#portfolio {
+    color: #ffffff;
+    background-color: #ff771d;
+    border-bottom: 2px solid #333;
+    background-image: url(sunset-image.png);
+    background-size: cover;
+    }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.placeholder-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.placeholder-image:hover {
+    transform: scale(1.1);
+}
+
+#contact {
+    background-color: #1b1b1b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #333;
+    color: #e0e0e0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff771d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: #e25a0b;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #333;
+}
