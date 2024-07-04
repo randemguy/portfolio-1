@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #1f1f1f;
-    padding: 20px;
+    padding: 100px, 0px;
     text-align: center;
     border-bottom: 2px solid #333;
     background-image: url(rocks-img.jpg);
