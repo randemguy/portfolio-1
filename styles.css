@@ -71,6 +71,7 @@ section:hover {
 }
 
 #portfolio {
+    min-height: 90%;
     color: #ffffff;
     background-color: #ff771d;
     border-bottom: 2px solid #333;
